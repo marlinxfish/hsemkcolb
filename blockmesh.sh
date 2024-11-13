@@ -34,7 +34,7 @@ else
 fi
 
 echo "Mengunduh dan mengekstrak BlockMesh CLI..."
-curl -L https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.368/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz -o blockmesh-cli.tar.gz
+curl -L https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.369/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz -o blockmesh-cli.tar.gz
 
 if [ $? -ne 0 ]; then
     echo "Gagal mengunduh BlockMesh CLI. Periksa koneksi internet Anda."
